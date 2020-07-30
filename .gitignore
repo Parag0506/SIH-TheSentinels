@@ -1,0 +1,11 @@
+weights
+input
+*.jpg
+*.mp4
+*.avi
+__pycache__
+*.csv
+apex
+.vscode
+node_modules
+yarn.lock

@@ -1,0 +1,27 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "Node Server for Deepfake VM",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "sudo fuser -k 5000/tcp && node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Parag0506/dfdc_deepfake_challenge.git"
+	},
+	"author": "The Sentinels",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Parag0506/dfdc_deepfake_challenge/issues"
+	},
+	"homepage": "https://github.com/Parag0506/dfdc_deepfake_challenge#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"csv-parse": "^4.11.1",
+		"express": "^4.17.1",
+		"morgan": "^1.10.0",
+		"multer": "^1.4.2"
+	}
+}
