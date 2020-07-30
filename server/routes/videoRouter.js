@@ -24,7 +24,7 @@ let upload = multer({
 });
 
 videoRouter.post("/", upload.single("video"), (req, res, next) => {
-	const shFile = path.join("~/", "deepfake", "deepfake-server", "predict.sh");
+	const shFile = path.join("~/", "Deepfake-Server", "predict.sh");
 
 	let fake_confidence, real_confidence, fps, frame_count;
 

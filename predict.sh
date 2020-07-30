@@ -1,9 +1,9 @@
 TEST_DIR=$1
 CSV=$2
 FRAMES=$3
-WEIGHTS_DIR=~/deepfake/deepfake-server/weights
+WEIGHTS_DIR=~/Deepfake-Server/weights
 
-python -W ignore ~/deepfake/deepfake-server/predict_folder.py \
+python -W ignore ~/Deepfake-Server/predict_folder.py \
  	--weights-dir $WEIGHTS_DIR \
 	--test-dir $TEST_DIR \
  	--output $CSV \
